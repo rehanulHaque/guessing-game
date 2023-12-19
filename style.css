@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&family=Work+Sans:wght@300&display=swap');
+*{
+    font-family: 'work sans';
+}
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    display: flex;
+    align-items:center;
+    justify-content:center;
+}
+span{
+    margin: 0 5px;
+}
+button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    outline: none;
+    color: white;
+    background-color: rgb(55, 55, 255);
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+input{
+    padding: 12px 20px;
+    border-radius: 5px;
+    border: 1px solid #000;
+    outline: none;
+}
+#guessName{
+    font-size: 2.5rem;
+    font-weight: bold;
+    color: #000;
+    text-align: center;
+}
+.container{
+    padding: 3rem;
+    background-color: aquamarine;
+    border-radius: 1rem;
+}
+.chance{
+    font-size: 1rem;
+}
+#btn{
+    width: 100%;
+}
+#wrong{
+    font-weight: 600;
+    color: red;
+    display: block;
+    padding-bottom: 1rem;
+}
+.over{
+    font-size: 2rem;
+    font-weight: bold;
+}
